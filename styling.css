@@ -1,0 +1,33 @@
+body {
+    background-color: #DBD8F0;
+}
+h1{
+    color: #56CBF9;
+}
+h2{
+    color: black
+}
+p {
+    color: #7FBEEB;
+}
+.aboutMeContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #695478;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.pagesNav {
+    display: flex;
+    background-color:#EAC5D8;
+    justify-content: center;
+
+}
+li{
+    display: inline-block;
+    align-self: center;
+    background-color:#DBD8F0;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+}   
