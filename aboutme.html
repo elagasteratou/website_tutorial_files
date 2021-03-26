@@ -20,8 +20,24 @@
         <h1>About me</h1>
         <p>Here are somethings about me.</p>
         <img src="michaela.jpg" alt="woman with a smile wearing a red jumper" width="200" height="auto">
-    </div>
+   
+        <form class="formDisplay">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First Name" oninput="validateForm()"> </br>
+        
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name" oninput="validateForm()"> </br>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com" oninput="validateForm()"> </br>
+            <!-- add another function and div to display text to the webpage when we have invalid emails -->
+            <div id="errorMsg"></div>
+            <input id="submitFormBtn" type="submit" value="Submit" class="button" onclick="submitForm()" disabled>
 
+          </form>
+    
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
